@@ -1,0 +1,111 @@
+commit d7c85ce38bd4a74b24d0762c7f6766dbedda741c
+Author:     Ferran Lucille <lucille.ferran@etu.iut-tlse3.fr>
+AuthorDate: Tue, 19 Oct 2021 15:49:28 +0200
+Commit:     Ferran Lucille <lucille.ferran@etu.iut-tlse3.fr>
+CommitDate: Tue, 19 Oct 2021 15:49:28 +0200
+Refnames:
+
+Initial commit---
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3472512
+--- /dev/null
++++ b/README.md
+@@ -0,0 +1,2 @@
++# S1.01-Semaine1
++
+commit 7e17fcb118143503ee5ca3148a9fcbb364525432
+Author:     lucille.ferran@etu.iut-tlse3.fr <lucille.ferran@etu.iut-tlse3.fr>
+AuthorDate: Tue, 19 Oct 2021 16:23:55 +0200
+Commit:     lucille.ferran@etu.iut-tlse3.fr <lucille.ferran@etu.iut-tlse3.fr>
+CommitDate: Tue, 19 Oct 2021 16:23:55 +0200
+Refnames:
+commit 018261e75b01f50b31452a6dc07efa9716b34f5e
+Author:     Phuong Thao Nguyen <phuong-thao.nguyen@etu.iut-tlse3.fr>
+AuthorDate: Tue, 26 Oct 2021 14:33:52 +0200
+Commit:     Phuong Thao Nguyen <phuong-thao.nguyen@etu.iut-tlse3.fr>
+CommitDate: Tue, 26 Oct 2021 14:33:52 +0200
+Refnames:
+
+Projet Semaine 2 v1
+---
+ Semaine2/.GitIgnore     | 13 +++++++++++++
+ Semaine2/infousager.gpr |  5 +++++
+ Semaine2/src/main.adb   |  6 ++++++
+ 3 files changed, 24 insertions(+)
+
+diff --git a/Semaine2/.GitIgnore b/Semaine2/.GitIgnore
+new file mode 100644
+index 0000000..3c87457
+--- /dev/null
++++ b/Semaine2/.GitIgnore
+@@ -0,0 +1,13 @@
++*.o
++*.ali
++*.exe
++*.xml
++b__*
++*.db*
++*.cgpr
++*.bexch
++*.npp
++*.stderr
++*.stdout
++*.diff
++*.cswi
+diff --git a/Semaine2/infousager.gpr b/Semaine2/infousager.gpr
+new file mode 100644
+index 0000000..6122a42
+--- /dev/null
++++ b/Semaine2/infousager.gpr
+@@ -0,0 +1,5 @@
++project Infousager is
++    for Source_Dirs use ("src");
++    for Object_Dir use "obj";
++    for Main use ("main.adb");
++end Infousager;
+diff --git a/Semaine2/src/main.adb b/Semaine2/src/main.adb
+new file mode 100644
+index 0000000..b1b1c41
+--- /dev/null
++++ b/Semaine2/src/main.adb
+@@ -0,0 +1,6 @@
++procedure Main is
++
++begin
++   --  Insert code here.
++   null;
++end Main;
+commit 2c4256cdb047f88abcb946b6c81a109480f70e4f
+Author:     lucille.ferran@etu.iut-tlse3.fr <lucille.ferran@etu.iut-tlse3.fr>
+AuthorDate: Tue, 26 Oct 2021 14:55:22 +0200
+Commit:     lucille.ferran@etu.iut-tlse3.fr <lucille.ferran@etu.iut-tlse3.fr>
+CommitDate: Tue, 26 Oct 2021 14:55:22 +0200
+Refnames:
+
+Paquetage
+---
+ Semaine2/{s1.01-semaine1/Semaine2 => }/README.md | 0
+ Semaine2/src/sousprogrammes.ads                  | 4 ++++
+ 2 files changed, 4 insertions(+)
+
+diff --git a/Semaine2/s1.01-semaine1/Semaine2/README.md b/Semaine2/README.md
+similarity index 100%
+rename from Semaine2/s1.01-semaine1/Semaine2/README.md
+rename to Semaine2/README.md
+diff --git a/Semaine2/src/sousprogrammes.ads b/Semaine2/src/sousprogrammes.ads
+index 90e98df..a03521d 100644
+--- a/Semaine2/src/sousprogrammes.ads
++++ b/Semaine2/src/sousprogrammes.ads
+@@ -1,4 +1,8 @@
+ package sousProgrammes is
+
++   -- enregistrement Type_Usager qui contient les champs
++   type Type_Usager is record
++      identifiant
++   end record;
+
+ end sousProgrammes;
