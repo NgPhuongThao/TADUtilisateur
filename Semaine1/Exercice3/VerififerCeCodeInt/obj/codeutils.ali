@@ -1,0 +1,78 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U codeutils%b		codeutils.adb		6b8fe9b8 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U codeutils%s		codeutils.ads		8014567d EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210905083744 76789da1 ada%s
+D a-except.ads		20210905083744 946f3014 ada.exceptions%s
+D a-inteio.ads		20210905083744 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210905083744 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210905083744 119b8fb3 ada.streams%s
+D a-string.ads		20210905083744 90ac6797 ada.strings%s
+D a-sttebu.ads		20210905083744 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210905083744 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210905083744 9eaa38c6 ada.tags%s
+D a-textio.ads		20210905083744 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210905083744 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210905083744 0e9b276f ada.unchecked_conversion%s
+D codeutils.ads		20211019133346 8014567d codeutils%s
+D codeutils.adb		20211019133350 b324e30c codeutils%b
+D interfac.ads		20210905083748 edec285f interfaces%s
+D i-cstrea.ads		20210905083748 e53d8b8e interfaces.c_streams%s
+D system.ads		20210905083752 2ffa5114 system%s
+D s-crtl.ads		20210905083750 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210905083750 54135002 system.exception_table%s
+D s-ficobl.ads		20210905083750 078245e4 system.file_control_block%s
+D s-parame.ads		20210905083750 4752c4cb system.parameters%s
+D s-putima.ads		20210905083750 4e095881 system.put_images%s
+D s-secsta.ads		20210905083750 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210905083750 a7318a92 system.soft_links%s
+D s-stache.ads		20210905083750 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210905083750 472fbca8 system.standard_library%s
+D s-stoele.ads		20210905083750 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210905083742 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210905083750 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210905083750 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210905083752 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210905083752 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [lirecode codeutils 4 14 none]
+G c Z s b [codevalide codeutils 9 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r31 2r6 2r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 14|2w10 2r35
+X 10 a-textio.ads
+58K13*Text_IO 725e16 14|1w10 1r35
+506U14*Put_Line 14|12s7 15s7 18s7 21s7
+X 11 a-tiinio.ads
+59U14*Get 14|14s7[3|18] 17s7[3|18] 20s7[3|18] 23s7[3|18]
+X 13 codeutils.ads
+1K9*codeUtils 13l5 13e14 14|4b14 43l5 43t14
+4U14*lireCode 5<7 5<25 5<43 5<61 14|6b14 25l8 25t16
+5i7 c1{integer} 14|7b7 14m12
+5i25 c2{integer} 14|7b25 17m12
+5i43 c3{integer} 14|7b43 20m12
+5i61 c4{integer} 14|7b61 23m12
+9V13*codeValide{boolean} 10>7 10>24 10>41 10>58 14|27b13 41l8 41t18
+10i7 c1{integer} 14|28b7 36r26
+10i24 c2{integer} 14|28b24 36r31
+10i41 c3{integer} 14|28b41 36r36
+10i58 c4{integer} 14|28b58 39r32
+X 14 codeutils.adb
+32i7 chiffreDuReste{integer} 36m7 39r15
+

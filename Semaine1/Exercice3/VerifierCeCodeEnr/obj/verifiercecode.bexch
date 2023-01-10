@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__verifiercecode.o
+[PROJECT FILES]
+C:\Users\Lucille\Documents\S1.01\Semaine1\Exercice3\VerifierCeCodeEnr\default.gpr
+20211019132130 987d098adf8ea710052b123250b3b3bb
+[BOUND OBJECT FILES]
+C:\Users\Lucille\Documents\S1.01\Semaine1\Exercice3\VerifierCeCodeEnr\obj\codeUtils.o
+C:\Users\Lucille\Documents\S1.01\Semaine1\Exercice3\VerifierCeCodeEnr\obj\VerifierCeCode.o
+[GENERATED SOURCE FILES]
+b__verifiercecode.ads
+b__verifiercecode.adb
+b__verifiercecode.ali
+[RESULTING OPTIONS]
+-LC:\Users\Lucille\Documents\S1.01\Semaine1\Exercice3\VerifierCeCodeEnr\obj\
+-LC:\Users\Lucille\Documents\S1.01\Semaine1\Exercice3\VerifierCeCodeEnr\obj\
+-LD:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

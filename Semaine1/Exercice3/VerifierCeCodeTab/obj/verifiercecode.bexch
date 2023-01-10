@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__verifiercecode.o
+[PROJECT FILES]
+C:\Users\bibota\Documents\BUT Info\S101\Exercice3\default.gpr
+20211019132132 5bfeb59c446bcae59967a19f56f8343b
+[BOUND OBJECT FILES]
+C:\Users\bibota\Documents\BUT Info\S101\Exercice3\obj\codeUtils.o
+C:\Users\bibota\Documents\BUT Info\S101\Exercice3\obj\VerifierCeCode.o
+[GENERATED SOURCE FILES]
+b__verifiercecode.ads
+b__verifiercecode.adb
+b__verifiercecode.ali
+[RESULTING OPTIONS]
+-LC:\Users\bibota\Documents\BUT Info\S101\Exercice3\obj\
+-LC:\Users\bibota\Documents\BUT Info\S101\Exercice3\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

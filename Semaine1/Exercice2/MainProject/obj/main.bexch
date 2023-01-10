@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Lucille\Documents\S1.01\Semaine1\Exercice2\MainProject\default.gpr
+20211019130946 f6a91f355df334941a5cd43da27775e0
+[BOUND OBJECT FILES]
+C:\Users\Lucille\Documents\S1.01\Semaine1\Exercice2\MainProject\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Lucille\Documents\S1.01\Semaine1\Exercice2\MainProject\obj\
+-LC:\Users\Lucille\Documents\S1.01\Semaine1\Exercice2\MainProject\obj\
+-LD:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+D:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
