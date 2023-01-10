@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__test_opapplication.o
+[PROJECT FILES]
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S101\s1.01-semaine1\Semaine3\default.gpr
+20211109151000 f8d58ad4d0875510040e8aea0a9efe7e
+[BOUND OBJECT FILES]
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S101\s1.01-semaine1\Semaine3\obj\usager.o
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S101\s1.01-semaine1\Semaine3\obj\opApplication.o
+C:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S101\s1.01-semaine1\Semaine3\obj\test_opapplication.o
+[GENERATED SOURCE FILES]
+b__test_opapplication.ads
+b__test_opapplication.adb
+b__test_opapplication.ali
+[RESULTING OPTIONS]
+-LC:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S101\s1.01-semaine1\Semaine3\obj\
+-LC:\Users\bibota\OneDrive\Onedrive\Dessin Thao\Cours\BUT Info\S101\s1.01-semaine1\Semaine3\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

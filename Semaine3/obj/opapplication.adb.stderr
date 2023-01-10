@@ -1,0 +1,1 @@
+opapplication.adb:71:28: warning: "depot" may be referenced before it has a value [enabled by default]
